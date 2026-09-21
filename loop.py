@@ -66,8 +66,11 @@ for i in range(0,101):
 # 7 x 7 = 49
 # 8 x 8 = 64
 # 9 x 9 = 81
-# 10 x 10 = 100
-
+# 10 x 10 = 100 
+ 
+for i in range(0,11):
+    print(i,"x",i,"=",i*i)
+    
 # *
 # **
 # ***
@@ -133,28 +136,6 @@ for i in range(1,n+1):
     factorial = factorial *i
 print("The factorial of n is =", factorial)
 
-# print factorial of a number   
-n=5
-factorial = 1
-for i in range(1,n+1):
-    factorial = factorial * i
-print("The factorial of n is =",factorial)
-
-# Find the smallest number
-n=[33,77,55,88,34,77,12,54,76,99,654,73,83]
-smallest = n[0]
-for i in n:
-    if i < smallest:
-        smallest=i 
-print("The smallest nmbber is =",smallest)        
-
-# Find the largest number
-n=[33,77,55,88,34,77,12,54,76,99,654,73,83]
-largest = n [0]
-for i in n:
-    if i > largest:
-        largest=i
-print("The largest number is =",largest)  
 
 
 
